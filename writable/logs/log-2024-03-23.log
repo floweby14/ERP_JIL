@@ -1,0 +1,75 @@
+CRITICAL - 2024-03-23 05:53:23 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ERP-Jilian\app\Views\ERP\home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 92, Array)
+#1 C:\xampp\htdocs\ERP-Jilian\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ERP-Jilian\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ERP-Jilian\system\Common.php(1089): CodeIgniter\View\View->render('ERP/home', Array, true)
+#4 C:\xampp\htdocs\ERP-Jilian\app\Controllers\Home.php(9): view('ERP/home')
+#5 C:\xampp\htdocs\ERP-Jilian\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ERP-Jilian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ERP-Jilian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ERP-Jilian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ERP-Jilian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-03-23 05:53:38 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ERP-Jilian\app\Views\ERP\home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 92, Array)
+#1 C:\xampp\htdocs\ERP-Jilian\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ERP-Jilian\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ERP-Jilian\system\Common.php(1089): CodeIgniter\View\View->render('ERP/home', Array, true)
+#4 C:\xampp\htdocs\ERP-Jilian\app\Controllers\Home.php(9): view('ERP/home')
+#5 C:\xampp\htdocs\ERP-Jilian\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ERP-Jilian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ERP-Jilian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ERP-Jilian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ERP-Jilian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-03-23 06:55:48 --> Class 'App\Models\M_model' not found
+#0 C:\xampp\htdocs\ERP-Jilian\system\CodeIgniter.php(832): App\Controllers\Data_Master->siswa()
+#1 C:\xampp\htdocs\ERP-Jilian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Master))
+#2 C:\xampp\htdocs\ERP-Jilian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ERP-Jilian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ERP-Jilian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2024-03-23 06:58:47 --> Column 'maker_siswa' cannot be null
+ERROR - 2024-03-23 06:59:48 --> Column 'maker_siswa' cannot be null
+ERROR - 2024-03-23 07:00:47 --> Column 'maker_siswa' cannot be null
+ERROR - 2024-03-23 07:02:29 --> Column 'maker_siswa' cannot be null
+CRITICAL - 2024-03-23 19:10:11 --> Invalid file: erp.php
+#0 C:\xampp\htdocs\ERP-Jilian\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('erp.php')
+#1 C:\xampp\htdocs\ERP-Jilian\system\Common.php(1089): CodeIgniter\View\View->render('erp', Array, true)
+#2 C:\xampp\htdocs\ERP-Jilian\app\Controllers\Home.php(65): view('erp')
+#3 C:\xampp\htdocs\ERP-Jilian\system\CodeIgniter.php(832): App\Controllers\Home->home()
+#4 C:\xampp\htdocs\ERP-Jilian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ERP-Jilian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ERP-Jilian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ERP-Jilian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-03-23 19:38:32 --> Invalid file: Inventaris_Sarana_Prasarana/layout/header.php
+#0 C:\xampp\htdocs\ERP-Jilian\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Inventaris_Sara...')
+#1 C:\xampp\htdocs\ERP-Jilian\system\Common.php(1089): CodeIgniter\View\View->render('Inventaris_Sara...', Array, true)
+#2 C:\xampp\htdocs\ERP-Jilian\app\Controllers\Inventaris_Sarana_Prasarana.php(23): view('Inventaris_Sara...', Array)
+#3 C:\xampp\htdocs\ERP-Jilian\system\CodeIgniter.php(832): App\Controllers\Inventaris_Sarana_Prasarana->index()
+#4 C:\xampp\htdocs\ERP-Jilian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventaris_Sarana_Prasarana))
+#5 C:\xampp\htdocs\ERP-Jilian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ERP-Jilian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ERP-Jilian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-03-23 20:17:18 --> Invalid file: Perizinan_Sekolah/dashboard.php
+#0 C:\xampp\htdocs\ERP-Jilian\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Perizinan_Sekol...')
+#1 C:\xampp\htdocs\ERP-Jilian\system\Common.php(1089): CodeIgniter\View\View->render('Perizinan_Sekol...', Array, true)
+#2 C:\xampp\htdocs\ERP-Jilian\app\Controllers\SI_Perizinan_Sekolah.php(25): view('Perizinan_Sekol...')
+#3 C:\xampp\htdocs\ERP-Jilian\system\CodeIgniter.php(832): App\Controllers\SI_Perizinan_Sekolah->index()
+#4 C:\xampp\htdocs\ERP-Jilian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SI_Perizinan_Sekolah))
+#5 C:\xampp\htdocs\ERP-Jilian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ERP-Jilian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ERP-Jilian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-03-23 20:17:24 --> Invalid file: Perizinan_Sekolah/dashboard.php
+#0 C:\xampp\htdocs\ERP-Jilian\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Perizinan_Sekol...')
+#1 C:\xampp\htdocs\ERP-Jilian\system\Common.php(1089): CodeIgniter\View\View->render('Perizinan_Sekol...', Array, true)
+#2 C:\xampp\htdocs\ERP-Jilian\app\Controllers\SI_Perizinan_Sekolah.php(25): view('Perizinan_Sekol...')
+#3 C:\xampp\htdocs\ERP-Jilian\system\CodeIgniter.php(832): App\Controllers\SI_Perizinan_Sekolah->index()
+#4 C:\xampp\htdocs\ERP-Jilian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SI_Perizinan_Sekolah))
+#5 C:\xampp\htdocs\ERP-Jilian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ERP-Jilian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ERP-Jilian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

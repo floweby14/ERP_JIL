@@ -1,0 +1,12 @@
+CRITICAL - 2024-03-25 18:39:20 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ERP-Jilian\app\Views\ERP\erp.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 91, Array)
+#1 C:\xampp\htdocs\ERP-Jilian\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ERP-Jilian\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ERP-Jilian\system\Common.php(1089): CodeIgniter\View\View->render('ERP/erp', Array, true)
+#4 C:\xampp\htdocs\ERP-Jilian\app\Controllers\My_ERP.php(14): view('ERP/erp')
+#5 C:\xampp\htdocs\ERP-Jilian\system\CodeIgniter.php(832): App\Controllers\My_ERP->index()
+#6 C:\xampp\htdocs\ERP-Jilian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\My_ERP))
+#7 C:\xampp\htdocs\ERP-Jilian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ERP-Jilian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ERP-Jilian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
